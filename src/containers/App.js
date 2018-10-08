@@ -6,6 +6,8 @@ import store from '../store';
 import _ from 'lodash';
 
 const App = () => {
+  console.log(store.getState());
+
   const { contacts, user, activeUserId } = store.getState();
 
   // .values method: it creates an array out of all key values of the object passed in
