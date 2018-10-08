@@ -1,5 +1,5 @@
-import { contact } from '../static-data';
+import { contacts } from '../static-data';
 
-export default (state = { contact }, action) => {
+export default (state = { contacts }, action) => {
   return state;
 };
